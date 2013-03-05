@@ -8,10 +8,7 @@ Hello there this is a new page.
 
 This will have a bunch of stuff.
 
-```
-code
-```
-
+    x <- rnorm(100,1,2)
 
 
 
