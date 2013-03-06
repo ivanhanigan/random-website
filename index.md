@@ -1,35 +1,3 @@
-#+TITLE:about 
-#+AUTHOR: Ivan Hanigan
-#+email: ivan.hanigan@anu.edu.au
-#+LaTeX_CLASS: article
-#+LaTeX_CLASS_OPTIONS: [a4paper]
-#+LATEX: \tableofcontents
------
-
-* Index
-*** COMMENT aboutus-code
-#+name:aboutus
-#+begin_src markdown :tangle aboutus.md :exports none :eval no :padline no
---- 
-name: about-us
-layout: default
-title: About us
----
-
-Ivan Hanigan 1, Steven McEachern 2, David Fisher 3.
-
-
-- 1 National Centre for Epidemiology and Population Health, Australian National University
-- 2 Australian Data Archive, Australian National University
-- 3 Information Technology Services, Australian National University
-
-Last Updated 5 March 2013
-
-#+end_src
-
-* abstract
-#+name:index
-#+begin_src markdown :tangle index.md :exports none :eval no :padline no
 --- 
 name: random-website
 layout: default
@@ -69,5 +37,3 @@ access data such as the Australian Deaths dataset.
 ```r
 x <- rnorm(100,1,2)
 ```
-
-#+end_src
