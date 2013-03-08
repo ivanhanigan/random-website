@@ -34,6 +34,8 @@ suicides in NSW. The paper then concludes with a reflection on the
 implications of applying these open software tools to restricted
 access data such as the Australian Deaths dataset.
 
-```r
-x <- rnorm(100,1,2)
-```
+
+    x <- rnorm(100,1,2)
+    hist(x)
+
+![plot](/images/hist_x.png)
