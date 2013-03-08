@@ -1,4 +1,4 @@
-#+TITLE:about 
+#+TITLE:Random-Website
 #+AUTHOR: Ivan Hanigan
 #+email: ivan.hanigan@anu.edu.au
 #+LaTeX_CLASS: article
