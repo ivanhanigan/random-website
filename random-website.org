@@ -187,8 +187,8 @@ access data such as the Australian Deaths dataset.
 *** COMMENT Index-graph-code
 #+name:Index-graph
 #+begin_src markdown :tangle index.md :exports none :eval no
-![plot](/images/hist_x.png)
-<!--![plot](/random-website/images/hist_x.png)-->
+<!--![plot](/images/hist_x.png)-->
+![plot](/random-website/images/hist_x.png)
 #+end_src
 *** Index-refs-code
 #+name:Index-refs
