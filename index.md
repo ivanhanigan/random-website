@@ -4,7 +4,6 @@ layout: default
 title: Random Website
 ---
 
-
 Increasing concerns over privacy in Australia and globally, combined
 with the risk from hacking and the accidental release of large-scale
 data sets is leading to increased restrictions on the use of
@@ -22,7 +21,7 @@ assembled with the aim to allow users to access restricted data in an
 appropriate and safe manner whilst allowing use of open software to
 enhance reproducibility and accessibility.  The system implementation
 is described specifically for the Australian National Research Cloud
-http://www.nectar.org.au/research-cloud/.
+[http://www.nectar.org.au/research-cloud/][1]
 
 We present a case study of an application from Environmental
 Epidemiology using confidential health records, which was a motivating
@@ -34,9 +33,13 @@ suicides in NSW. The paper then concludes with a reflection on the
 implications of applying these open software tools to restricted
 access data such as the Australian Deaths dataset.
 
+![plot](/images/hist_x.png)
+<!--![plot](/random-website/images/hist_x.png)-->
 
+[1]: http://www.nectar.org.au/research-cloud/ "Nectar"
+
+#### Chunk ####
     x <- rnorm(100,1,2)
+    png("images/hist_x.png")
     hist(x)
-
-<!---![plot](/images/hist_x.png)-->
-![plot](/random-website/images/hist_x.png)
+    dev.off()
