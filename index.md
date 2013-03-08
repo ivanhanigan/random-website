@@ -38,4 +38,5 @@ access data such as the Australian Deaths dataset.
     x <- rnorm(100,1,2)
     hist(x)
 
-![plot](/images/hist_x.png)
+<!---![plot](/images/hist_x.png)-->
+![plot](/random-website/images/hist_x.png)
