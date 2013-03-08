@@ -249,7 +249,7 @@ access data such as the Australian Deaths dataset.
 <!--![plot](/random-website/images/hist_x.png)-->
 #+end_src
 
-** About
+** COMMENT About
 *** COMMENT aboutus-code
 #+name:aboutus
 #+begin_src markdown :tangle aboutus.md :exports none :eval no :padline no
