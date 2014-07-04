@@ -145,15 +145,41 @@ layout: default
 title: Random Website
 ---
 #+end_src
+
+*** COMMENT Index-graph-code
+#+name:Index-graph
+#+begin_src markdown :tangle index.md :exports none :eval no
+<!--![plot](/images/hist_x.png)-->
+![plot](/random-website/images/hist_x.png)
+#+end_src
+
+
+*** COMMENT Index-code
+#+name:asdf
+#+begin_src R :session *R* :tangle index.md :exports none :eval no
+  #### Chunk ####
+      x <- rnorm(100,1,2)
+      png("images/hist_x.png")
+      hist(x)
+      dev.off()
+  
+  <p></p>
+
+  
+
+#+end_src
 *** Abstract
-# A test map
-
-# <iframe style="border: none;" height="400" width="600" src="http://130.56.60.77:8081/geoexplorer/viewer/#maps/1"></iframe>
-
 #+name:Index-prose
 #+begin_src markdown :tangle index.md :exports reports :eval no
 
+A test map
 
+<iframe style="border: none;" height="400" width="600" src="http://brawn.anu.edu.au:8081/geoexplorer/viewer/#maps/1"></iframe>
+
+
+#+end_src
+
+*** COMMENT snip 
 Increasing concerns over privacy in Australia and globally, combined
 with the risk from hacking and the accidental release of large-scale
 data sets is leading to increased restrictions on the use of
@@ -182,25 +208,6 @@ both of which have previously been found to increase the risk of
 suicides in NSW. The paper then concludes with a reflection on the
 implications of applying these open software tools to restricted
 access data such as the Australian Deaths dataset.
-#+end_src
-
-*** COMMENT Index-code
-#+name:asdf
-#+begin_src R :session *R* :tangle index.md :exports none :eval no
-  #### Chunk ####
-      x <- rnorm(100,1,2)
-      png("images/hist_x.png")
-      hist(x)
-      dev.off()
-  
-#+end_src
-
-*** COMMENT Index-graph-code
-#+name:Index-graph
-#+begin_src markdown :tangle index.md :exports none :eval no
-<!--![plot](/images/hist_x.png)-->
-![plot](/random-website/images/hist_x.png)
-#+end_src
 *** Index-refs-code
 #+name:Index-refs
 #+begin_src markdown :tangle index.md :exports reports :eval no
