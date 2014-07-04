@@ -6,8 +6,7 @@ title: Random Website
 
 A test map
 
-<iframe style="border: none;" height="400" width="600" src="http://130.56.60.77:8081/geoexplorer/viewer/#maps/1"></iframe>
-
+<iframe style="border: none;" height="400" width="600" src="http://brawn.anu.edu.au:8081/geoexplorer/viewer/#maps/1"></iframe>
 
 Increasing concerns over privacy in Australia and globally, combined
 with the risk from hacking and the accidental release of large-scale
