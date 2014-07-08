@@ -7,14 +7,9 @@ title: Random Website
 <!--![plot](/images/hist_x.png)-->
 ![plot](/random-website/images/hist_x.png)
 
-#### Chunk ####
-    x <- rnorm(100,1,2)
-    png("images/hist_x.png")
-    hist(x)
-    dev.off()
+test veiwer
 
-<p></p>
-
+<iframe style="border: none;" height="400" width="600" src="http://phenocam.anu.edu.au/TERN_Discovery_01.html"></iframe>
 
 A test map
 
