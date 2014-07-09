@@ -7,6 +7,12 @@
 -----
 
 * COMMENT layout
+** _config.yml-code
+#+name:_config.yml
+#+begin_src R :session *R* :tangle _config.yml :exports none :eval no :padline no
+markdown: kramdown
+#+end_src
+
 ** COMMENT default
 #+name:aboutus
 #+begin_src html :tangle _layouts/default.html :exports none :eval no
@@ -149,14 +155,25 @@ title: Random Website
 *** COMMENT Index-graph-code
 #+name:Index-graph
 #+begin_src markdown :tangle index.md :exports none :eval no
-<!--![plot](/images/hist_x.png)-->
-![plot](/random-website/images/hist_x.png)
+### This is a test of embedding data feeds and visualisations for a "dashboard"
+
+- LIDAR data for tumbarumba is available on our ANU GIS server [http://www.tern-supersites.net.au/knb/metacat/lloyd.374/html](http://www.tern-supersites.net.au/knb/metacat/lloyd.374/html)
+
+<iframe style="border: none;" height="400" width="600" src="http://brawn.anu.edu.au:8081/geoexplorer/viewer/#maps/1"></iframe>
+
+- Daintree phenocam data are available from the ANU RSBS site [http://www.tern-supersites.net.au/knb/metacat/lloyd.649/html]( http://www.tern-supersites.net.au/knb/metacat/lloyd.649/html)
+
+<iframe style="border: none;" height="400" width="600" src="http://phenocam.anu.edu.au/TERN_Discovery_01.html"></iframe>
+
+- My experiment in using Generalised Additive models for interpolating 3 hourly temperatures in Sydney can be embedded [http://ivanhanigan.github.io/2013/06/spatio-temporal-animations/](http://ivanhanigan.github.io/2013/06/spatio-temporal-animations/)
+
+<iframe style="border: none;" height="400" width="600" src="/random-website/images/spacetimegamSydney3hrTemp.gif"></iframe>
 #+end_src
 
 
 *** COMMENT Index-code
 #+name:asdf
-#+begin_src R :session *R* :tangle index.md :exports none :eval no
+#+begin_src R :session *R* :tangle no :exports none :eval no
   #### Chunk ####
       x <- rnorm(100,1,2)
       png("images/hist_x.png")
@@ -170,7 +187,7 @@ title: Random Website
 #+end_src
 *** Abstract
 #+name:Index-prose
-#+begin_src markdown :tangle index.md :exports reports :eval no
+#+begin_src markdown :tangle no :exports reports :eval no
 
 A test map
 
@@ -210,7 +227,7 @@ implications of applying these open software tools to restricted
 access data such as the Australian Deaths dataset.
 *** Index-refs-code
 #+name:Index-refs
-#+begin_src markdown :tangle index.md :exports reports :eval no
+#+begin_src markdown :tangle no :exports reports :eval no
 [1]: http://www.nectar.org.au/research-cloud/ "Nectar"
 #+end_src
 
