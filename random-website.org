@@ -158,6 +158,7 @@ title: Random Website
 ### This is a test of embedding data feeds and visualisations for a "dashboard"
 
 - LIDAR data for tumbarumba is available on our ANU GIS server [http://www.tern-supersites.net.au/knb/metacat/lloyd.374/html](http://www.tern-supersites.net.au/knb/metacat/lloyd.374/html)
+- The orange polygon is a 0.005 decimal degree buffer around the flux tower.
 
 <iframe style="border: none;" height="400" width="600" src="http://brawn.anu.edu.au:8081/geoexplorer/viewer/#maps/4"></iframe>
 
