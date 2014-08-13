@@ -168,6 +168,11 @@ title: Random Website
 - My experiment in using Generalised Additive models for interpolating 3 hourly temperatures in Sydney can be embedded [http://ivanhanigan.github.io/2013/06/spatio-temporal-animations/](http://ivanhanigan.github.io/2013/06/spatio-temporal-animations/)
 
 <iframe style="border: none;" height="400" width="600" src="/random-website/images/spacetimegamSydney3hrTemp.gif"></iframe>
+
+- This interactive scatter plot is From: Garth Tarr <garth.tarr@gmail.com> Sent: Thursday, 12 June 2014 To: Philip Tennant  
+
+<iframe style="border: none;" height="1200" width="600" src="http://spark.rstudio.com/garthtarr/splom/"></iframe>
+
 #+end_src
 
 
