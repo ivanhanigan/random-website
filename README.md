@@ -3,5 +3,5 @@ random-website
 
 random-website
 
-http://ivanhanigan.github.com/random-website
+http://ivanhanigan.github.io/random-website
 
