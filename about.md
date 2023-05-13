@@ -1,15 +1,12 @@
 --- 
-name: started-a-site-with-jekyll
+name: about
 layout: default
-title: Started a site with Jekyll
+title: About this site
 ---
 
 Hello there this is a new page.
 
 This will have a bunch of stuff.
-
-    x <- rnorm(100,1,2)
-
 
 
 
