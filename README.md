@@ -1,6 +1,8 @@
-Hello world
+## Hello world
 
-Note about dropdowns
+Big tip of the hat to Charlie Park and Karl Broman (especially [https://kbroman.org/simple_site/pages/overview.html](https://kbroman.org/simple_site/pages/overview.html))
+
+### Note about dropdowns
 <span class="dropdown">
   <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">

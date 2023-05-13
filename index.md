@@ -8,4 +8,4 @@ title: Random website
 
 This is a GREAT website.
 
-![pic](/images/starfish.jpg)
+![pic](/assets/starfish.jpg)
