@@ -1,6 +1,7 @@
 --- 
 name: values
-layout: default
+layout: page
+permalink: /values/
 title: Values
 ---
 

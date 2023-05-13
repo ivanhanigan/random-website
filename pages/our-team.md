@@ -1,6 +1,7 @@
 ---
 name: our-team
-layout: default
+layout: page
+permalink: /our-team/
 title: Our team
 ---
 
