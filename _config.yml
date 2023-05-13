@@ -1,16 +1,17 @@
-## heavily edited from karl broman simple_site
-permalink: /:categories/:year/:month/:day/:title
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
 
 exclude: ["README.md", "License.md", "random-website.Rproj"]
 highlighter: rouge
 
-title : random-website
-author :
-  name : Ivan Hanigan
-  email : ivan.hanigan@gmail.com
-  github : ivanhanigan
+title: random-website
+author:
+  name: Ivan Hanigan
+  email: ivan.hanigan@gmail.com
+  github: ivanhanigan
 
-production_url : https://ivanhanigan.github.io/random-website
+url: https://ivanhanigan.github.io
 
-BASE_PATH : /random-website
+baseurl: /random-website
 
