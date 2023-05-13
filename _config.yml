@@ -12,5 +12,5 @@ author :
 
 production_url : https://ivanhanigan.github.io/random-website
 
-# BASE_PATH : https://ivanhanigan.github.io/random-website
+BASE_PATH : /random-website
 
