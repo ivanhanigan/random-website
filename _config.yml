@@ -11,7 +11,14 @@ author:
   email: ivan.hanigan@gmail.com
   github: ivanhanigan
 
-# this is just too confusing
+# this is just too confusing 
+  # kbroman says
+  # A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
+  # REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
+  #
+  # CAUTION:
+  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
+
 # url: https://ivanhanigan.github.io
 # baseurl: /random-website
 
