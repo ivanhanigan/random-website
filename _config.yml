@@ -11,7 +11,7 @@ author:
   email: ivan.hanigan@gmail.com
   github: ivanhanigan
 
-url: https://ivanhanigan.github.io
-
-baseurl: /random-website
+# this is just too confusing
+# url: https://ivanhanigan.github.io
+# baseurl: /random-website
 

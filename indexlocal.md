@@ -1,6 +1,6 @@
 ---
 name: random-website
-layout: default
+layout: defaultlocal
 title: Random website
 ---
 
