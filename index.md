@@ -4,6 +4,8 @@ layout: default
 title: Random website
 ---
 
+![starfish](assets/starfish.jpg)
+
 <h1>Latest Posts</h1>
 
 <ul>
