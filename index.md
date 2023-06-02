@@ -4,8 +4,17 @@ layout: default
 title: Random website
 ---
 
-# Welcome to our website
+<h1>Latest Posts</h1>
 
-This is a GREAT website.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{  post.title }}</a></h2>
+      {{ post.excerpt }}
+      {{ post.date | date_to_string }}
+<P></P>
+    </li>
+  {% endfor %}
+  
 
-![pic](assets/starfish.jpg)
+</ul>
