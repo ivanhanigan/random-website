@@ -9,7 +9,13 @@ The files are on the gh-pages branch
 
 I hope that my colleagues and students using windows can also use this.
 
-Perhaps after 
+To develop pages locally you need to be able to run 
+
+```
+jekyll serve
+```
+
+Which is easy on linux. Perhaps if you are on windows it is possible after you install windows sub linux (WSL) 
 
 ```
 wsl --install
